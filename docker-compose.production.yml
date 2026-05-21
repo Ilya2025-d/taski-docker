@@ -33,5 +33,5 @@ services:
 
 networks:
   default:
-    name: web_natwork
+    name: web_network
     external: true
