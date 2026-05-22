@@ -30,8 +30,5 @@ services:
     depends_on:
       - frontend
       - backend
-
-networks:
-  default:
-    name: web_network
-    external: true
+    ports:
+      - 8080:80
